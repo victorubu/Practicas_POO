@@ -1,0 +1,16 @@
+<mujoco model="basic_scene">
+  <option timestep="0.01" gravity="0 0 -9.81"/>
+  <worldbody>
+    <!-- Suelo -->
+    <geom name="floor" type="plane" size="10 10 0.1" rgba="0.8 0.8 0.8 1"/>
+    <!-- Esfera -->
+    <body name="ball" pos="0 0 1">
+      <geom type="sphere" size="0.1" rgba="1 0 0 1"/>
+      <joint type="free"/>
+    </body>
+    <!-- Rampa -->
+    <body name="ramp" pos="0.5 0 0.1">
+      <geom name="inclined_ramp" type="box" size="1 0.5 0.1" rgba="0.7 0.7 0.7 1" euler="0.3 0 0"/>
+    </body>
+  </worldbody>
+</mujoco>
