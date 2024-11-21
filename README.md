@@ -77,17 +77,23 @@ Ejemplo de estructura del XML generado:
 **Actualizaciones en Tiempo Real:
   La posición de la esfera puede actualizarse dinámicamente con la interacción del mouse.
   La cámara se actualiza continuamente para renderizar la escena.
+
 **Requisitos**
+
 **Librerías de Python:
   mujoco: Motor de física para la simulación.
   mujoco.glfw: Administrador de contexto OpenGL para renderizar la escena.
   customtkinter: Librería para la creación de interfaces gráficas modernas.
   numpy: Cálculos numéricos para las actualizaciones de posición y geometría.
+
 **Principales Funcionalidades**
+
 **Geometría Dinámica:
   Genera una escena completamente configurable de forma dinámica.
+
 **Interfaz Interactiva:
   Controles intuitivos mediante deslizadores y botones.
+
 **Actualizaciones en Tiempo Real:
   Simulación interactiva con actualizaciones en vivo mediante entrada del mouse.
 
